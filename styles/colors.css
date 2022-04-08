@@ -1,0 +1,52 @@
+.header.page {
+    background-color: #EEEEEE;
+    box-shadow: 0 30px 40px rgba(0, 173, 181, 0.12);
+}
+
+.menu.list > div {
+    
+    border: 5px solid rgb(0, 0, 0, 0);
+    border-radius: 10px;
+
+    transition: all 0.25s linear;
+}
+
+.menu.list > div:hover {
+    border-color: #00ADB5;
+    box-shadow: 3px 3px 10px #00ADB5;
+}
+
+body {
+    background-color: #303841;
+}
+
+main {
+    border: 20px solid #3A4750;
+    border-bottom: 20px solid #00ADB5;
+    background-color: #EEEEEE;
+}
+
+a {
+    color: #303841;
+    transition: all 0.12s linear;
+}
+
+a:hover {
+    color: #00ADB5;
+    text-shadow: 3px 3px 10px #00ADB5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #00ADB5;
+}
+
+
+
+hr {
+    color: #00ADB5;
+}

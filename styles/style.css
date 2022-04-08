@@ -1,0 +1,211 @@
+.header.page {
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    font-size: 1.5em;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.header.container {
+    width: inherit;
+
+    display: flex;
+    align-items: center;
+}
+
+.header.navigation {
+    width: inherit;
+    height: max-content; 
+}
+
+.header.navigation.list {
+    width: inherit;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header.logo:hover {
+    opacity: 0.5;
+    transition: all 0.25s linear;
+}
+
+.header.logo {
+    width: 125px;
+}
+
+.header.logo a {
+    width: inherit;
+}
+
+.header.logo img{
+    width: inherit;
+}
+
+.our-building {
+    width: 100%;
+    height: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-building img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu.list > div {
+    width: 250px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu.list > div img {
+    width: 225px;
+    height: 325px;
+
+    border-radius: 10px;
+}
+
+.footer.page {
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 1.5em;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.footer.navigation.partners.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer.navigation.partners.list img {
+    width: 150px;
+    height: 150px;
+}
+
+.main.container p {
+    padding: 0 50px;
+    text-align: center;
+}
+
+.our-team {
+    width: 100%;
+}
+
+.our-team img {
+    width: 100%;
+    height: auto;
+}
+
+.our-abilities {
+    width: 150px;
+    height: 150px;
+}
+
+.our-abilities img {
+    width: inherit;
+    height: inherit;
+}
+
+.main.container {
+    width: 100%;
+}
+    
+.main.container div {
+    display: flex;
+}
+
+table.contacts {
+    width: 100%;
+    height: 100%;
+}
+
+tbody {
+    width: 100%;
+}
+
+.contacts td {
+    padding: 20px;
+    vertical-align: initial;
+    width: 33.3%;
+}
+
+body {
+    margin-top: 150px;
+
+    font-size: 18px;
+    font-family: 'Quantico', sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    width: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    width: max-content; 
+    height: max-content; 
+
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5em;
+
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.75em;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header.navigation.list {
+        justify-content: flex-start;
+    }
+    .header.navigation.list li {
+        margin-left: 50px;
+    }
+}
